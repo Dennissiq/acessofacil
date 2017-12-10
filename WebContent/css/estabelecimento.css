@@ -1,0 +1,429 @@
+@import url('fonts.css');
+
+.textList {
+	font-family: 'PT Sans', sans-serif;
+}
+
+/* Formularios e Modais */
+.form_estabelecimento{
+    border-radius: 5px;
+    margin: auto;
+    max-width: 1100px;
+    padding: 20px;
+}
+
+label {
+	color: #03275A;
+	font-size: 100%;
+    font-family: 'MontserratRegular';
+}
+
+.obs {
+	margin-top: 20px;
+	font-family: 'MontserratRegular';
+	text-align: center;
+}
+
+.info {
+	font-family: 'MontserratLight';
+	font-size: 15px;
+}
+
+.form_estabelecimento .form-control {
+	font-size: 16px;
+
+}
+
+.form-estabelecimento label {
+    font-size: 16px;
+}
+
+.container_cadastro, .container_avaliacao {
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.container_modal{
+	margin: auto;
+	max-width: 750px;
+}
+
+#verEstabelecimentoModal .container_modal {
+	height: 500px;
+}
+
+.modal-header {
+    border-bottom: 2px solid #1A7DD7;
+}
+
+.modal-title, .titulo-pagina {
+    color: #03275A;
+    font-family: 'MontserratBold';
+    font-size: 30px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.close_modal, .close_modal:hover {
+	background: 0 0;
+	border: 0;
+	color: #F0433A;
+	float: right;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1;
+	opacity: 1;
+	margin-top: -15px;
+	padding: 0;
+	webkit-appearance: none;
+}
+
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: 'MontserratRegular';
+    height: 150px;
+    margin-left: 15px;
+    resize: none;
+    width: 97%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/* Botões */
+.btn {
+	font-family: 'MontserratRegular';
+}
+
+#actions {
+	text-align: right;	
+}
+
+.cancelar {
+	background: #F0433A;
+	border: none;
+	color: #fff;
+	margin-right: 15px;
+}
+
+.cadastrar, .salvar, .editar, .entrar, .voltar {
+	background: #18C29C;
+	border: none;
+	color: #fff;
+	margin-right: 50px;
+}
+
+.confirmar {
+	float: right;
+	margin-right: 50px;
+}
+
+.entrar {
+	width: 100%;
+}
+
+.editar, .voltar {
+	background: #1A7DD7;
+}
+
+.voltar {
+	font-family: 'MontserratRegular';
+	margin-right: 0;
+}
+
+.cancelar:hover, .cancelar:focus, .cancelar:active {
+	background: #F0433A;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+
+.cadastrar:hover, .cadastrar:focus, .cadastrar:active,
+.salvar:hover, .salvar:focus, .salvar:active,
+.entrar:hover, .entrar:focus, .entrar:active {
+	background: #18c29c;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+
+.editar:hover, .editar:focus, .editar:active,
+.voltar:hover, .voltar:focus, .voltar:active {
+	background: #1A7DD7;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+
+/* Paginas */
+.titulo-pagina {
+	border-bottom: 2px solid  #1A7DD7;
+	font-family: 'MontserratBold';
+	font-size: 30px;
+	margin: 0 0 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/*estabelecimentos.jsp*/
+.pesquisa {
+	margin: 0 0 10px;
+	text-align: center;
+}
+
+.pesquisa label {
+	color: #03275A;
+}
+
+.pesquisa .form-control {
+	display: inline-block;
+	font-size: 16px;
+	padding: 21px;
+	width: 69%
+}
+
+.pesquisa .btn {
+	background: #1A7DD7;
+	border: #1A7DD7;
+	margin-left: -54px;
+	margin-top: -6px;
+}
+
+.pesquisa .btn:hover {
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.cadastro {
+	margin-bottom: 30px;
+	margin-left: 54px;
+}
+
+.cadastro p {
+  color: #03275A;
+  font-family: 'MontserratRegular';
+  font-size: 16px;
+}
+
+.table.estabelecimento {
+	margin-top: 40px;
+}
+
+.table.estabelecimento th {
+	border-bottom: 2px solid #1A7DD7;
+	color: #03275A;
+	font-family: 'MontserratRegular';
+	font-size: 18px;
+	text-align: center;
+	width: 30%;
+}
+
+.table.estabelecimento td {
+	color: #03275A;
+	font-size: 105%;
+	padding: 10px 0 7px 0;
+	text-align: center;
+    width: 30%;
+}
+
+.table.estabelecimento td a {
+	color: #1A7DD7;
+	font-size: 22px;
+	padding: 0 5px;
+	text-decoration: none;
+}
+
+.acoes .btn,
+.cadastro .btn {
+	background: #18C29C;
+	border: none;
+	color: #fff;
+}
+
+.acoes .btn:hover, .acoes .btn:focus, .acoes .btn:active,
+.cadastro .btn:hover, .cadastro .btn:focus, .cadastro .btn:active {
+  background: #18C29C;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  color: #fff;
+
+}
+
+.acoes {
+	text-align: center;
+	margin: 20px 0 30px;
+}
+
+.acoes .btn {
+	font-family: 'MontserratRegular';
+	margin: 0 10px;
+}
+
+.paginacao {
+	color: #1A7DD7;
+	font-size: 17px;
+    margin: 10px 0px 30px;
+    text-align: center;
+}
+
+.paginacao .item {
+	padding: 3px 8px;
+}
+
+.paginacao .next,  .paginacao .prev {
+	background: none;
+    padding: 5px;
+}
+
+.paginacao .next:hover,  .paginacao .prev:hover {
+	background: none;
+}
+
+.paginacao a:hover,
+.paginacao .active {
+	background: #ddd;
+	color: #03275A;
+	text-decoration: none;
+}
+
+.retorno-vazio {
+	font-family: 'MontserratRegular';
+	font-size: 15px;
+	margin-bottom: 30px;
+	margin-left: -40px;
+}
+
+/*visualizar-estabelecimentos.jsp*/
+.container-visualizacao p {
+	display: inline;
+	font-family: 'MontserratRegular';
+	font-size: 15px;
+}
+
+.visualizar-avaliacoes p {
+	display: block;
+}
+
+.visualizar-avaliacoes .nome {
+	font-family: 'MontserratBold';
+	font-size: 16px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+
+.visualizar-avaliacoes .data {
+	color: #586069;
+}
+
+.visualizar-avaliacoes .comentario {
+	font-family: 'MontserratRegular';
+	font-size: 15px;
+}
+
+.visualizar-avaliacoes .nota {
+	color: #FFD801;
+	display: inline;
+	font-weight: 700;
+	float: right;
+}
+
+.visualizar-avaliacoes .item {
+	color: #586069;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.info-avaliacao {
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+/* avaliar-estabelecimento */
+.container_avaliacao .nome {
+	font-family: 'MontserratRegular';
+	font-size: 15px;
+	display: inline;
+}
+
+.container_avaliacao .nota {
+	padding-right: 10px;
+}
+
+.container_avaliacao textarea {
+	height: 70px;
+	padding: 5px 10px;
+}
+
+/*cadastrar-estabelecimentos.jsp*/
+.container-cadastro {
+	margin-top: 30px;	
+}
+
+.container-cadastro .acoes {
+	margin-bottom: 30px;
+}
+
+.container-cadastro .acoes .cadastrar {
+	margin-right: 0;
+	text-align: center;
+}
+
+.container-cadastro .categoria {
+	padding: 6px 4px;
+}
+
+/* RESPONSIVO */
+@media (min-width: 320px) and (max-width: 768px) {
+	/* Geral */
+	.no-padding {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+	.titulo-pagina {
+		font-size: 24px;
+	}
+	
+	.form-control {
+		padding: 6px 8px;
+	}
+	
+	/* estabelecimentos.jsp */
+	.pesquisa .form-control{
+		padding: 21px 10px;
+		width: 87%;
+	}
+	
+	.cadastro {
+		margin-left: 0;
+	}
+	
+	.cadastro p {
+		font-size: 15px;
+	}
+	
+	.table.estabelecimento th {
+		font-size: 16px;
+	}
+	
+	.table.estabelecimento td {
+		font-size: 100%;		
+	}
+	
+	.retorno-vazio {
+	    margin-left: -15px;
+	}
+	
+	/* cadastrar-estabelecimento.jsp */
+	#cadastrar-estabelecimento {
+		margin-top: 60px;
+	}
+	
+	/* visualizar-estabelecimento */ 	
+	.container-visualizacao {
+		margin-top: 65px;
+	}
+	
+	/* avaliar-estabelecimento */
+	
+	#avaliar-estabelecimento {
+		margin-top: 65px;
+	}
+}	

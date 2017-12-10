@@ -1,0 +1,368 @@
+/* Geral */
+@import url('fonts.css');
+
+html, body, .wrapper {
+  height: 100%;
+  font-family: 'MontserratLight';
+  font-size: 100%;
+}
+ 
+body>.wrapper {
+  min-height: 100%;
+  height: auto;
+}
+
+.home {
+	padding: 0;
+}
+  
+.wrap {
+  padding-bottom: 50px;
+ }
+ 
+ .btn, .btn-lg {
+ 	border-radius: 0px;
+ }
+ 
+ .form-control,
+ input {
+ 	border-radius: 0px;
+ 	font-family: 'MontserratRegular';
+ }
+ 
+ /* Logo */
+ .logo {
+ 	background: url("../images/logo_azul.png") no-repeat;
+ 	height: 124px;
+ 	margin-bottom: 50px;
+ 	margin-top: 60px;
+ 	width: 260px;
+ }
+ 
+ /* Login */
+.form-signin, .criar-conta {
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+.form-signin {
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.login {
+	padding-bottom: 60px;
+}
+
+.criar-conta {
+  font-family: 'MontserratRegular';
+  text-align: center;
+}
+
+.criar-conta a {
+  color: #1A7DD7;
+  cursor: pointer;
+}
+
+.form-signin-heading {
+  color: #03275A;
+  font-family: 'MontserratRegular';
+  font-size: 23px;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+  margin-bottom: 15px;
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+ .form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="senha"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.checkbox {
+  margin-left: 20px;
+}
+
+.grafismo-top {
+	background: url("../images/grafismo_01.png") no-repeat;
+	height: 200px;
+	margin: 20px;
+	position: absolute;
+	width: 200px;
+}
+
+.grafismo-bottom {
+	background: url("../images/grafismo_02.png") no-repeat;
+	float: right;
+	height: 200px;
+	margin: 20px;
+	margin-top: -220px;
+	width: 200px;
+}
+
+/* Menu */
+.home .navbar-right {
+  display: none;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+    height: 65px;
+    padding: 10px;
+}
+  
+.navbar-inverse {
+  background: #03275A;
+  border-color: #1A7DD7;
+  border-bottom-width: 5px;
+  height: 80px;
+  margin-bottom: 30px;
+  position: relative;
+}
+  
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  font-family: 'MontserratRegular';
+  font-size: 17px;
+  padding: 31px 0 17px 0;
+}
+  
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+  background: none;
+  color: #D7DADB;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background: #03275A;
+}
+  
+.nav .perfil, 
+.nav .estabelecimento {
+  margin-left: 25px;
+  text-transform: capitalize;
+}
+
+.nav .estabelecimento:hover,
+.nav .estabelecimento.active,
+.nav .perfil:hover {
+	border-bottom: 7px solid #1A7DD7;
+}
+
+.dropdown-menu {
+	margin: 0;
+	min-width: 115px;
+	padding: 5px;
+}
+
+.dropdown-menu .divider {
+	margin: 0;
+}
+  
+.dropdown-menu>li>a {
+	color: #03275A;
+	font-size: 15px;
+	text-align: right;
+}
+
+.dropdown-menu>li>a:hover {
+	background: #03275A;
+	color: #fff;
+}
+
+.acessibilidade a{
+	display: inline-block !important;
+	margin-right: 10px;
+}
+
+.acessibilidade a:hover{ 
+	cursor: pointer;
+}
+
+.js-font-decrease {
+   	font-size: 15px !important;
+ }
+ 
+.js-font-normal {
+	font-size: 17px !important;
+}
+  
+.js-font-increase {
+  	font-size: 19px !important;
+}
+
+/* Rodapé */
+.footer {
+  background: #1A7DD7;
+  border-top: 5px solid #03275A;
+  clear: both;
+  margin-top: -45px;
+  height: 45px;
+  position: relative;
+  width: 100%;
+}
+
+.footer p {
+  color: #ffffff;
+  margin: 0;
+  padding: 9px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-home {
+	color: #586069;
+	font-family: 'MontserratLight';
+	margin-top: -30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+  
+button#btn-navbar-toggle:hover, button#btn-navbar-toggle:focus {
+  background-color: #1A7DD7;
+}
+
+.tituloHeader {
+  margin-bottom: 0px;
+  background-color: #1A7DD7;
+  color: white;
+}
+
+div.conteudo_page {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.titulo_interno {
+  text-align: center;
+}
+
+.alignButtons {
+  text-align: center;
+}
+  
+ /*alerts */
+.top-alert {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  z-index: 100000;
+  left: 0;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+}
+.top-alert .alert {
+  width: auto !important;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding-left: 35px;
+}
+.top-alert .alert .close {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  color: inherit;
+}
+
+.btn-alert {
+	padding: 0px 12px;
+}
+
+/* RESPONSIVO */
+@media (min-width: 320px) and (max-width: 768px) {
+	/* index.jsp */
+	.grafismo-top, .grafismo-bottom {
+		background: none;
+		display: none;
+	}
+	
+	.footer p {
+		font-size: 11px;
+	}
+	
+	/* menu */
+	.navbar-inverse .navbar-toggle {
+	    border-color: #fff;
+	}
+	
+	.navbar-inverse .navbar-collapse {
+		border: none;
+		-webkit-box-shadow: none;
+	}
+	
+	.navbar-nav {
+		background: #03275A;
+		float: right;
+		margin-top: 10px;
+		padding: 0 15px;
+	}
+	
+	.navbar-toggle {
+		margin-right: 0;
+		margin-top: 20px;
+	}
+	
+	.navbar-inverse .navbar-nav>li>a {
+		float: right;
+		padding: 10px 0;
+	}
+	
+	.nav .estabelecimento:hover, 
+	.nav .estabelecimento.active, 
+	.nav .perfil:hover {
+		border-bottom: none;
+	}
+	
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #fff;
+		padding: 5px 0px 5px 25px;
+	}
+	
+	.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+		background: none;
+	}
+	
+	.navbar-inverse .navbar-nav>.active>a, 
+	.navbar-inverse .navbar-nav>.active>a:focus, 
+	.navbar-inverse .navbar-nav>.active>a:hover {
+		border-bottom: 4px solid #1A7DD7;
+	}
+}	
+
+  
+/*azul claro: #1A7DD7
+verde claro: #18C29C
+vermelho: #F0433A
+cinza: #D7DADB
+border-color: #18C29C
+border-color: #6aabe6 */
