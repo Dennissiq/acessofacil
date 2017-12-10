@@ -1,4 +1,7 @@
-# Acesso Fácil
+<p align="center"><img src="https://i.imgur.com/wgTVPev.png"></p>
+
+
+## Acesso Fácil
 
 Projeto Interdisciplinar Semestral da Universidade São Judas Tadeu.
 
