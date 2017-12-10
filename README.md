@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.imgur.com/wgTVPev.png"></p>
 
-
+<div> </div>
 ## sobre
 
 Projeto Interdisciplinar Semestral da Universidade São Judas Tadeu.
